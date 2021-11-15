@@ -1,0 +1,21 @@
+dl.details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+dl.details div {
+  flex-basis: 1;
+  min-width: 175px;
+}
+.details dd {
+  margin: 0;
+}
+.ap-icon {
+  display: block;
+  height: 90px;
+}
+.ap-icon svg {
+  max-width: 75px;
+  max-height: 75px;
+}
